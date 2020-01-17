@@ -7,10 +7,10 @@ header {
     flex-direction: column;
     justify-content: flex-end !important;
     align-items: center !important;
-    height: 100vh;
+    min-height: 100vh !important;
     width: auto;
     background-color: #002c48;
-    color: #FFFFFF !important;
+    padding-top: 10vh;
 }
 
 header > div > h1 {

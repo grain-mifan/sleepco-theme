@@ -1,17 +1,20 @@
 .sc-section-category {
-    background-color: #bdccd4;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    min-height: 100vh;
+    width: auto;
+    background-color: #bdccd4;
 }
 .sc-section-category > div {
     width: 93%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 .sc-section-category > div > .sc-section-category-title > img {
-    margin-bottom: 0 !important;
+    margin-bottom: 10px !important;
 }
 
 .sc-section-category > div > .sc-section-category-title > h1 {
@@ -19,5 +22,6 @@
     font-weight: 300;
     font-style: normal;
     color: #FFFFFF;
+    margin-top: 0 !important;
 }
 

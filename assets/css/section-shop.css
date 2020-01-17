@@ -9,6 +9,8 @@
 
 .sc-section-shop > div {
     width: 93%;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 .sc-section-shop > div > h1 {
