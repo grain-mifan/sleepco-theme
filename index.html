@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/section-category.css" />
     <link rel="stylesheet" href="./assets/css/section-shop.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
 </head>
 <body>
 <!-- Navbar Start -->
@@ -19,24 +20,24 @@
     <div class="uk-position-top">
         <nav class="uk-navbar-container uk-navbar-transparent uk-margin-medium-top" uk-navbar>
             <div class="uk-navbar-left uk-margin-medium-left">
-                <a class="uk-navbar-item uk-logo uk-text-uppercase sc-logo-header" href="#">sleepco</a>
+                <a class="uk-navbar-item uk-logo uk-text-uppercase sc-logo-header" href="">sleepco</a>
             </div>
             <div class="uk-navbar-right uk-margin-medium-right">
                 <ul class="uk-navbar-nav">
                     <li>
-                        <a href="#" class="sc-main-link">home</a>
+                        <a href="#modal-center" class="sc-main-link" uk-toggle>home</a>
                     </li>
                     <li>
-                        <a href="#">shop</a>
+                        <a href="#modal-center" uk-toggle>shop</a>
                     </li>
                     <li>
-                        <a href="#">cbd</a>
+                        <a href="#modal-center" uk-toggle>cbd</a>
                     </li>
                     <li>
-                        <a href="#">coaching / tracking</a>
+                        <a href="#modal-center" uk-toggle>coaching / tracking</a>
                     </li>
                     <li>
-                        <a href="#">about</a>
+                        <a href="#modal-center" uk-toggle>about</a>
                     </li>
                 </ul>
             </div>
@@ -56,14 +57,14 @@
                         <img class="uk-align-center" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579251206/images/sleepco/logo-main.png" width="40px" height="" alt="" uk-img>
                         <p>get your sleep assessment</p>
                     </div>
-                    <button class="uk-button uk-button-secondary uk-width-1-2 uk-align-center">take your sleep quiz</button>
+                    <button class="uk-button uk-button-secondary uk-width-1-2 uk-align-center" type="button" uk-toggle="target: #modal-center">take your sleep quiz</button>
                 </div>
                 <div class="uk-width-1-2@m uk-text-center">
                     <div>
                         <img class="uk-align-center" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579251206/images/sleepco/logo-main.png" width="40px" height="" alt="" uk-img>
                         <p>monitor your habits and get<br />1:1 advice from an expert</p>
                     </div>
-                    <button class="uk-button uk-button-secondary uk-width-1-2 uk-align-center">download your app</button>
+                    <button class="uk-button uk-button-secondary uk-width-1-2 uk-align-center" type="button" uk-toggle="target: #modal-center">download your app</button>
                 </div>
             </div>
         </div>
@@ -105,11 +106,11 @@
                         <div uk-grid>
                             <div class="uk-width-1-2">
                                 <img class="uk-align-center uk-responsive" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579253876/images/sleepco/calming-cbd.png" alt="" uk-img>
-                                <button class="uk-button sc-button-orange uk-width-1-1">with cbd</button>
+                                <button class="uk-button sc-button-orange uk-width-1-1" type="button" uk-toggle="target: #modal-center">with cbd</button>
                             </div>
                             <div class="uk-width-1-2">
                                 <img class="uk-align-center uk-responsive" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579253876/images/sleepco/calming-without.png" alt="" uk-img>
-                                <button class="uk-button uk-button-default uk-width-1-1">without cbd</button>
+                                <button class="uk-button uk-button-default uk-width-1-1" type="button" uk-toggle="target: #modal-center">without cbd</button>
                             </div>
                         </div>
                     </div>
@@ -120,11 +121,11 @@
                         <div uk-grid>
                             <div class="uk-width-1-2">
                                 <img class="uk-align-center uk-responsive" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579253876/images/sleepco/rejuvenate-cbd.png" alt="" uk-img>
-                                <button class="uk-button sc-button-orange uk-width-1-1">with cbd</button>
+                                <button class="uk-button sc-button-orange uk-width-1-1" type="button" uk-toggle="target: #modal-center">with cbd</button>
                             </div>
                             <div class="uk-width-1-2">
                                 <img class="uk-align-center uk-responsive" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579253876/images/sleepco/rejuvenate-without-cbd.png" alt="" uk-img>
-                                <button class="uk-button uk-button-default uk-width-1-1">without cbd</button>
+                                <button class="uk-button uk-button-default uk-width-1-1" type="button" uk-toggle="target: #modal-center">without cbd</button>
                             </div>
                         </div>
                     </div>
@@ -135,11 +136,11 @@
                         <div uk-grid>
                             <div class="uk-width-1-2">
                                 <img class="uk-align-center uk-responsive" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579253876/images/sleepco/deepsleep-cbd.png" alt="" uk-img>
-                                <button class="uk-button sc-button-orange uk-width-1-1">with cbd</button>
+                                <button class="uk-button sc-button-orange uk-width-1-1" type="button" uk-toggle="target: #modal-center">with cbd</button>
                             </div>
                             <div class="uk-width-1-2">
                                 <img class="uk-align-center uk-responsive" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579253876/images/sleepco/deepsleep-without-cbd.png" alt="" uk-img>
-                                <button class="uk-button uk-button-default uk-width-1-1">without cbd</button>
+                                <button class="uk-button uk-button-default uk-width-1-1" type="button" uk-toggle="target: #modal-center">without cbd</button>
                             </div>
                         </div>
                     </div>
@@ -170,6 +171,24 @@
             </div>
         </div>
     </footer>
+<!-- Modal Start -->
+    <div id="modal-center" class="uk-flex-top sc-modal" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="uk-container uk-container-large">
+                <img class="uk-align-center" data-src="https://res.cloudinary.com/mifan-studio/image/upload/v1579251206/images/sleepco/logo-main.png" width="42px" height="auto" alt="footer logo" uk-img>
+                <h2 class="uk-text-uppercase uk-text-center">oops. <br />we're not ready yet.</h2>
+                <p class="uk-text-center">please sign up for email updates, brand news and receive<br />a unique coupon code once we launch !</p>
+                <form class="uk-margin-small-top uk-align-center uk-text-center">
+                    <div class="uk-margin">
+                        <input class="uk-input uk-form-width-medium" type="email" placeholder="your email address">
+                    </div>
+                </form>
+                <button class="uk-button uk-button-default uk-border-rounded uk-text-center uk-align-center">subscribe</button>
+            </div>
+        </div>
+    </div>
+<!-- Modal Stop -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.7/dist/js/uikit-icons.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

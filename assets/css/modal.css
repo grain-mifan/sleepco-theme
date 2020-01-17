@@ -1,0 +1,45 @@
+.sc-modal > div {
+    background-color: #002c48;
+    min-height: 60vh !important;
+    width: auto;
+    padding-top: 10vh !important;
+    padding-bottom: 5vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-modal > div > div > h2 {
+    font-family: 'HypatiaSansPro';
+    font-weight: 300;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-top: 0 !important;
+}
+
+.sc-modal > div > div > p {
+    font-family: 'HypatiaSansPro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.0em;
+    color: #FFFFFF;
+}
+
+.sc-modal > div > div > form > div > input {
+    text-align:center;
+}
+
+.sc-modal > div > div > img {
+    margin-bottom: 10px !important;
+}
+
+.sc-modal > div > div > button {
+    background-color: #F0F0F0;
+    color: #FFFFFF;
+}
+
+.sc-modal > div > div >button:hover {
+    background-color: #F0F0F0;
+    color: #FFFFFF;
+}
