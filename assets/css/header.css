@@ -5,20 +5,22 @@
 header {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-end !important;
+    align-items: center !important;
     height: 100vh;
     width: auto;
     background-color: #002c48;
     color: #FFFFFF !important;
 }
 
-header > h1 {
+header > div > h1 {
     color: #FFFFFF;
+    padding-bottom: 10vh;
 }
 
 header > .sc-header-content {
-    width: 93%;
+    width: 85%;
+    padding-bottom: 7vh;
 }
 
 header > .sc-header-content > div > div {
@@ -32,10 +34,16 @@ header > .sc-header-content > div > div > div > img {
     margin-bottom: 0 !important;
 }
 
+header > .sc-header-content > div > div > div > p {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
 header > .sc-header-content > div > div > button {
     background-color: #000000 !important;
     color: #FFFFFF !important;
     border: 1px solid #FFFFFF !important;
+    margin-top: 0 !important;
 }
 
 header > .sc-header-content > div > div > button:hover {
