@@ -1,8 +1,10 @@
 /** Footer Email */
 footer > .sc-footer-email {
     background-color: #002c48;
-    min-height: 70vh;
+    min-height: 60vh !important;
     width: auto;
+    padding-top: 10vh !important;
+    padding-bottom: 5vh !important;
 }
 
 footer > .sc-footer-email > div {
@@ -10,7 +12,6 @@ footer > .sc-footer-email > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
 }
 
 footer > .sc-footer-email > div > h1 {
@@ -18,6 +19,7 @@ footer > .sc-footer-email > div > h1 {
     font-weight: 300;
     font-style: normal;
     color: #FFFFFF;
+    margin-top: 0 !important;
 }
 
 footer > .sc-footer-email > div > p {
@@ -40,7 +42,7 @@ footer > .sc-footer-email > div > button:hover {
 
 /** Footer Scroll **/
 footer > .sc-footer-scroll {
-    min-width: 30vh;
+    min-height: 30vh;
     width: auto;
 }
 
@@ -49,7 +51,7 @@ footer > .sc-footer-scroll > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25vh;
+    min-height: 25vh;
 }
 
 footer > .sc-footer-scroll > div > a {
