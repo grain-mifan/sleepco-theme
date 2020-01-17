@@ -1,0 +1,63 @@
+/** Footer Email */
+footer > .sc-footer-email {
+    background-color: #002c48;
+    min-height: 70vh;
+    width: auto;
+}
+
+footer > .sc-footer-email > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+footer > .sc-footer-email > div > h1 {
+    font-family: 'HypatiaSansPro';
+    font-weight: 300;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+footer > .sc-footer-email > div > p {
+    font-family: 'HypatiaSansPro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.0em;
+    color: #FFFFFF;
+}
+
+footer > .sc-footer-email > div > button {
+    background-color: #F0F0F0;
+    color: #FFFFFF;
+}
+
+footer > .sc-footer-email > div > button:hover {
+    background-color: #F0F0F0;
+    color: #FFFFFF;
+}
+
+/** Footer Scroll **/
+footer > .sc-footer-scroll {
+    min-width: 30vh;
+    width: auto;
+}
+
+footer > .sc-footer-scroll > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+footer > .sc-footer-scroll > div > a {
+    background-color: #F0F0F0;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

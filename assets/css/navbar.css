@@ -1,0 +1,22 @@
+nav {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+nav > div > .sc-logo-header {
+    color: #FFFFFF;
+    letter-spacing: 5px !important;
+    font-family: 'HypatiaSansPro';
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav > div > .sc-logo-header:hover {
+    color: #FFFFFF;
+}
+
+nav > div > ul > li > a {
+    color: #FFFFFF !important;
+    letter-spacing: 1px;
+}

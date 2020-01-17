@@ -1,0 +1,30 @@
+.sc-section-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sc-section-shop > div {
+    width: 93%;
+}
+
+.sc-section-shop > div > h1 {
+    font-family: 'HypatiaSansPro';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sc-section-shop > div > div > div > h3 {
+    font-family: 'HypatiaSansPro';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+.sc-section-shop > div > div > div > div > div > div > .sc-button-orange {
+    border: 1px solid #d27d28;
+    background-color: #d27d28;
+    color: #FFFFFF;
+}

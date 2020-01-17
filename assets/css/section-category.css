@@ -1,0 +1,23 @@
+.sc-section-category {
+    background-color: #bdccd4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sc-section-category > div {
+    width: 93%;
+}
+
+.sc-section-category > div > .sc-section-category-title > img {
+    margin-bottom: 0 !important;
+}
+
+.sc-section-category > div > .sc-section-category-title > h1 {
+    font-family: 'HypatiaSansPro';
+    font-weight: 300;
+    font-style: normal;
+    color: #FFFFFF;
+}
+

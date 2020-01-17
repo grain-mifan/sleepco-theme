@@ -1,0 +1,49 @@
+.sc-full {
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-color: #002c48;
+    color: #FFFFFF !important;
+}
+
+header > h1 {
+    color: #FFFFFF;
+    font-family: 'HypatiaSansPro';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 5em;
+}
+
+header > .sc-header-content {
+    width: 93%;
+}
+
+header > .sc-header-content > div > div {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header > .sc-header-content > div > div > div > img {
+    margin-bottom: 0 !important;
+}
+
+header > .sc-header-content > div > div > button {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+header > .sc-header-content > div > div > button:hover {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+}
