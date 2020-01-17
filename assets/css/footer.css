@@ -30,6 +30,10 @@ footer > .sc-footer-email > div > p {
     color: #FFFFFF;
 }
 
+footer > .sc-footer-email > div > form > div > input {
+    text-align:center;
+}
+
 footer > .sc-footer-email > div > button {
     background-color: #F0F0F0;
     color: #FFFFFF;
