@@ -2,9 +2,22 @@ html, body {
     font-family: 'HypatiaSansPro';
     font-weight: normal;
     font-style: normal;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    margin: 0 !important;
+    line-height: 1.0 !important;
 }
 
+p {
+    font-size: 1em !important;
+}
+
+h1 {
+    font-size: 5em !important;
+    font-family: 'HypatiaSansPro' !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+}

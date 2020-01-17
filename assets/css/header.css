@@ -15,10 +15,6 @@ header {
 
 header > h1 {
     color: #FFFFFF;
-    font-family: 'HypatiaSansPro';
-    font-weight: 200;
-    font-style: normal;
-    font-size: 5em;
 }
 
 header > .sc-header-content {
